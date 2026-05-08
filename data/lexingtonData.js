@@ -3,10 +3,10 @@ export const lexingtonData = {
     label: "Menu Specs",
     sections: [
       {
-        title: "Chilled Hors D'oeuvres",
+        category: "Chilled Hors D'oeuvres",
         items: [
           {
-            title: "Raw Oysters on the Half Shell",
+            name: "Raw Oysters on the Half Shell",
             ingredients: [
               "6 East Coast oysters, perfectly shucked",
               "Cocktail sauce",
@@ -20,7 +20,7 @@ export const lexingtonData = {
               "Cocktail sauce contains ketchup, atomic horseradish, lemon juice, Worcestershire, and Dijon. Herb mignonette contains rice wine vinegar, shallots, Fresno, jalapeno, black pepper, and Asian herbs.",
           },
           {
-            title: "Shrimp Cocktail",
+            name: "Shrimp Cocktail",
             ingredients: [
               "5 poached shrimp",
               "Court bouillon",
@@ -36,7 +36,7 @@ export const lexingtonData = {
               "Shrimp poached with cayenne, paprika, lemon, bay leaves, salt, and sugar.",
           },
           {
-            title: "Steak Tartare",
+            name: "Steak Tartare",
             ingredients: [
               "5 oz prime strip",
               "Lime zest",
@@ -58,7 +58,7 @@ export const lexingtonData = {
               "Rice emulsion contains overcooked rice, whole eggs, and oil.",
           },
           {
-            title: "Ahi Tuna Carpaccio",
+            name: "Ahi Tuna Carpaccio",
             ingredients: [
               "3 oz 1+ grade tuna",
               "Avocado wasabi mousse",
@@ -72,7 +72,7 @@ export const lexingtonData = {
               "Avocado wasabi mousse contains avocado, wasabi powder, cream cheese, and lime juice.",
           },
           {
-            title: "Relish Tray",
+            name: "Relish Tray",
             ingredients: [
               "Rotating house-made pickles",
               "Cured meats",
@@ -89,7 +89,7 @@ export const lexingtonData = {
               "Rotating selection. Includes multiple pickled and cured components.",
           },
           {
-            title: "Burrata",
+            name: "Burrata",
             ingredients: [
               "4 oz burrata",
               "Fig jam",
@@ -102,7 +102,7 @@ export const lexingtonData = {
               "Fig jam contains figs, apple cider, red wine, sugar, honey, balsamic, lemon juice, thyme, and rosemary.",
           },
           {
-            title: "Shrimp Ceviche",
+            name: "Shrimp Ceviche",
             ingredients: [
               "Shrimp",
               "Coconut milk",
@@ -122,10 +122,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Hot Hors D'oeuvres",
+        category: "Hot Hors D'oeuvres",
         items: [
           {
-            title: "Lobster & Cauliflower Cheese",
+            name: "Lobster & Cauliflower Cheese",
             ingredients: [
               "6 oz crocked dip",
               "Tabasco",
@@ -140,7 +140,7 @@ export const lexingtonData = {
               "House cheese blend is white American, white cheddar, and mascarpone.",
           },
           {
-            title: "Walleye Cakes",
+            name: "Walleye Cakes",
             ingredients: [
               "3 walleye cakes",
               "Cucumber herb salad",
@@ -157,7 +157,7 @@ export const lexingtonData = {
               "Walleye cakes contain steamed walleye, jalapenos, scallions, cilantro, lemon juice, mayo, eggs, and panko.",
           },
           {
-            title: "Onion Rings",
+            name: "Onion Rings",
             ingredients: [
               "1 lb beer battered onion rings",
               "Salt",
@@ -169,7 +169,7 @@ export const lexingtonData = {
               "House ranch contains mayo, buttermilk, garlic, onion powder, vinegar, Tabasco, chives, dill, celery seed, and mustard powder.",
           },
           {
-            title: "Texas Tenderloin Tips",
+            name: "Texas Tenderloin Tips",
             ingredients: [
               "6 oz coffee rubbed beef tenderloin and teres major",
               "Coffee spice",
@@ -182,7 +182,7 @@ export const lexingtonData = {
               "Coffee spice includes coffee, brown sugar, ancho chili powder, smoked paprika, cumin, and salt.",
           },
           {
-            title: "Fritto Misto",
+            name: "Fritto Misto",
             ingredients: [
               "Fresh squid",
               "Rock shrimp",
@@ -199,7 +199,7 @@ export const lexingtonData = {
               "Pomodoro contains tomato, garlic, basil, and red pepper flakes.",
           },
           {
-            title: "Creamy Saffron Mussels",
+            name: "Creamy Saffron Mussels",
             ingredients: [
               "3/4 lb mussels",
               "Fennel",
@@ -218,7 +218,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Lamb Meatballs",
+            name: "Lamb Meatballs",
             ingredients: [
               "5 lamb meatballs",
               "Hummus",
@@ -231,7 +231,7 @@ export const lexingtonData = {
               "Meatballs contain lamb, mint, parsley, yogurt, eggs, bread crumb, cumin, coriander, paprika, cinnamon, allspice, and cayenne.",
           },
           {
-            title: "Oysters Rockefeller",
+            name: "Oysters Rockefeller",
             ingredients: [
               "6 oysters",
               "Cream",
@@ -247,10 +247,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Soup & Salad",
+        category: "Soup & Salad",
         items: [
           {
-            title: "Sweet Onion Bouillon",
+            name: "Sweet Onion Bouillon",
             ingredients: [
               "Caramelized white onions",
               "Chicken stock",
@@ -264,7 +264,7 @@ export const lexingtonData = {
             notes: "Sachet contains bay leaf, thyme, and peppercorn.",
           },
           {
-            title: "Iceberg",
+            name: "Iceberg",
             ingredients: [
               "Whole lettuce portion",
               "Popped heirloom cherry tomatoes",
@@ -277,7 +277,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Petite Greens",
+            name: "Petite Greens",
             ingredients: [
               "Mixed greens",
               "Shaved vegetables",
@@ -290,7 +290,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Apple Orchard Salad",
+            name: "Apple Orchard Salad",
             ingredients: [
               "Bibb lettuce",
               "Candied pecans",
@@ -301,7 +301,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Caesar",
+            name: "Caesar",
             ingredients: [
               "Romaine",
               "Croutons",
@@ -313,7 +313,7 @@ export const lexingtonData = {
               "Caesar dressing contains fish sauce, lemon juice, mayo, garlic, anchovies, mustard, parmesan, vinegar, and oils.",
           },
           {
-            title: "Roasted Beets",
+            name: "Roasted Beets",
             ingredients: [
               "Red and yellow beets",
               "Orange thyme gastrique",
@@ -329,10 +329,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Entrees",
+        category: "Entrees",
         items: [
           {
-            title: "Steak Diane",
+            name: "Steak Diane",
             ingredients: [
               "8 oz petite bistro tender",
               "Wild mushrooms",
@@ -341,7 +341,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Roasted Half Chicken",
+            name: "Roasted Half Chicken",
             ingredients: [
               "Brined half chicken",
               "Sweet chili glaze",
@@ -352,7 +352,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Whitefish Gorbachev",
+            name: "Whitefish Gorbachev",
             ingredients: [
               "6 oz pecan and panko crusted whitefish",
               "Smoked tomato butter sauce",
@@ -364,7 +364,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Maple Miso Salmon",
+            name: "Maple Miso Salmon",
             ingredients: [
               "7 oz salmon",
               "Miso glaze",
@@ -377,7 +377,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Scallops",
+            name: "Scallops",
             ingredients: [
               "5 to 7 scallops",
               "Wild rice risotto",
@@ -387,7 +387,7 @@ export const lexingtonData = {
             notes: "7 to 8 oz total portion.",
           },
           {
-            title: "Cioppino",
+            name: "Cioppino",
             ingredients: [
               "Mussels",
               "Calamari",
@@ -408,7 +408,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Famous Smoked Chicken Pot Pie",
+            name: "Famous Smoked Chicken Pot Pie",
             ingredients: [
               "Smoked chicken thighs",
               "Thyme",
@@ -427,7 +427,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Meatloaf Wellington",
+            name: "Meatloaf Wellington",
             ingredients: [
               "10 oz beef and pork blend",
               "Puff pastry",
@@ -438,10 +438,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Sandwiches",
+        category: "Sandwiches",
         items: [
           {
-            title: "Lex Burger",
+            name: "Lex Burger",
             ingredients: [
               "7 oz burger patty",
               "Brioche bun",
@@ -456,7 +456,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Salmon Burger",
+            name: "Salmon Burger",
             ingredients: [
               "6 oz salmon patty",
               "Brioche bun",
@@ -469,7 +469,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Impossible Burger",
+            name: "Impossible Burger",
             ingredients: [
               "Impossible vegan patty",
               "Vegan gluten free bun",
@@ -485,10 +485,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Sides",
+        category: "Sides",
         items: [
           {
-            title: "Yukon Gold Scallion Whipped Potatoes",
+            name: "Yukon Gold Scallion Whipped Potatoes",
             ingredients: [
               "Yukon gold potatoes",
               "Sour cream",
@@ -498,7 +498,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Garlic Parsley Fries with Truffle Aioli",
+            name: "Garlic Parsley Fries with Truffle Aioli",
             ingredients: [
               "Fries",
               "Parsley",
@@ -513,10 +513,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Dessert",
+        category: "Dessert",
         items: [
           {
-            title: "Grasshopper Pie",
+            name: "Grasshopper Pie",
             ingredients: [
               "Oreo cookie crumb crust",
               "Chocolate mint ganache",
@@ -530,7 +530,7 @@ export const lexingtonData = {
             notes: "Alcohol is not cooked out.",
           },
           {
-            title: "Key Lime Pie",
+            name: "Key Lime Pie",
             ingredients: [
               "Graham cracker crust",
               "Egg yolks",
@@ -543,7 +543,7 @@ export const lexingtonData = {
             notes: "",
           },
           {
-            title: "Chocolate Cocoa Crumble Cake",
+            name: "Chocolate Cocoa Crumble Cake",
             ingredients: [
               "Chocolate cake",
               "Cocoa crumble",
@@ -560,10 +560,10 @@ export const lexingtonData = {
     label: "Drink Specs",
     sections: [
       {
-        title: "Classics",
+        category: "Classics",
         items: [
           {
-            title: "Sazerac",
+            name: "Sazerac",
             ingredients: [
               "3 oz Rye (Old Overholt)",
               "1 oz Simple Syrup",
@@ -576,7 +576,7 @@ export const lexingtonData = {
               "Local variation of a cognac or whiskey cocktail from New Orleans. Often claimed as one of the oldest known American cocktails.",
           },
           {
-            title: "Vieux Carre",
+            name: "Vieux Carre",
             ingredients: [
               "3 oz George Dickel Rye",
               ".5 oz Hennessy",
@@ -590,7 +590,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Last Word",
+            name: "Last Word",
             ingredients: [
               "3 oz New Amsterdam Gin",
               ".5 oz Green Chartreuse",
@@ -603,7 +603,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Boulevardier",
+            name: "Boulevardier",
             ingredients: [
               "1.5 oz Bourbon (Cabin Still)",
               "1 oz Campari",
@@ -616,7 +616,7 @@ export const lexingtonData = {
               "Appeared in Harry McElhone's 1927 bar guide, Barflies and Cocktails. Signature drink of Erskine Gwynne.",
           },
           {
-            title: "Aviation",
+            name: "Aviation",
             ingredients: [
               "2 oz Gin (New Amsterdam)",
               "1.5 oz Lemon Sour",
@@ -630,7 +630,7 @@ export const lexingtonData = {
               "Created by Hugo Ensslin, head bartender at the Hotel Wallick in New York. First published in 1916.",
           },
           {
-            title: "Vesper",
+            name: "Vesper",
             ingredients: [
               "2 oz Gin (New Amsterdam)",
               "1 oz Vodka (Wheatley)",
@@ -643,7 +643,7 @@ export const lexingtonData = {
               "Invented and named by Ian Fleming in the 1953 James Bond novel Casino Royale.",
           },
           {
-            title: "Hemingway Daiquiri",
+            name: "Hemingway Daiquiri",
             ingredients: [
               "2 oz White Rum (Bacardi Silver)",
               "1.5 oz Lime Sour",
@@ -657,7 +657,7 @@ export const lexingtonData = {
               "Inspired by Ernest Hemingway's preference for a less sweet, stronger daiquiri at El Floridita in Cuba.",
           },
           {
-            title: "Hugo Spritz",
+            name: "Hugo Spritz",
             ingredients: [
               "1 oz Mint Syrup",
               ".5 oz Lime Juice",
@@ -671,7 +671,7 @@ export const lexingtonData = {
               "Created in 2005 by Roland Gruber in Northern Italy as a refreshing alternative to the Aperol Spritz.",
           },
           {
-            title: "Lex 75",
+            name: "Lex 75",
             ingredients: [
               "2 oz Gin (New Amsterdam)",
               "1.5 oz Lemon Sour",
@@ -687,10 +687,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Originals",
+        category: "Originals",
         items: [
           {
-            title: "The Williamsburg",
+            name: "The Williamsburg",
             ingredients: [
               "3 oz Rye (Old Overholt)",
               ".5 oz Italian Amaro (Montenegro)",
@@ -704,7 +704,7 @@ export const lexingtonData = {
               "Variation on a classic Manhattan with Italian amaro and chocolate bitters added for depth.",
           },
           {
-            title: "Grapefruit Negroni",
+            name: "Grapefruit Negroni",
             ingredients: [
               "1 oz Tattersall Grapefruit Crema",
               ".75 oz Gin (New Amsterdam)",
@@ -718,7 +718,7 @@ export const lexingtonData = {
               "Variation on a classic Negroni with locally made grapefruit liqueur from Tattersall Distillery.",
           },
           {
-            title: "The Lex Cup",
+            name: "The Lex Cup",
             ingredients: [
               "1 oz Pimm's",
               "1 oz Cucumber Vodka (New Amsterdam infused)",
@@ -733,7 +733,7 @@ export const lexingtonData = {
               "Variation on a classic Pimm's Cup, widely associated with Wimbledon and British summer drinking.",
           },
           {
-            title: "Whiskey Apple Smash",
+            name: "Whiskey Apple Smash",
             ingredients: [
               "3 oz Cabin Still Bourbon",
               "1 oz Apple Cider",
@@ -750,10 +750,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Old Fashioneds",
+        category: "Old Fashioneds",
         items: [
           {
-            title: "Sconnie Style",
+            name: "Sconnie Style",
             ingredients: [
               "3 oz Brandy (E&J)",
               "1 oz Turbinado Syrup",
@@ -766,7 +766,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Tucky Style",
+            name: "Tucky Style",
             ingredients: [
               "3 oz Bourbon (Cabin Still)",
               "1 oz Turbinado Syrup",
@@ -778,7 +778,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Island Style",
+            name: "Island Style",
             ingredients: [
               "1.5 oz Aged Rum (Appleton Estate Signature Blend)",
               "1 oz White Rum (Bacardi Silver)",
@@ -792,7 +792,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Jalisco Style",
+            name: "Jalisco Style",
             ingredients: [
               "3 oz Reposado Tequila (El Jimador)",
               "1 oz Honey Syrup",
@@ -805,7 +805,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "#9",
+            name: "#9",
             ingredients: [
               "3 oz Rare Bourbon (Four Roses)",
               "1 oz Aromatic Simple",
@@ -817,7 +817,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "2XO 90th Anniversary Old Fashioned",
+            name: "2XO 90th Anniversary Old Fashioned",
             ingredients: [
               "3 oz 2XO Lex 90th Anniversary Bourbon",
               "1 oz Cane Syrup",
@@ -831,10 +831,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Drinks On Tap",
+        category: "Drinks On Tap",
         items: [
           {
-            title: "Moscow Mule",
+            name: "Moscow Mule",
             ingredients: [
               "2 oz Vodka (New Amsterdam)",
               ".5 oz Lime",
@@ -847,7 +847,7 @@ export const lexingtonData = {
               "Popularized in Los Angeles in the 1940s and associated with copper mugs and vodka promotion.",
           },
           {
-            title: "Espresso Martini",
+            name: "Espresso Martini",
             ingredients: [
               "1 oz House Brewed Coffee",
               "2 oz Vodka (Wheatley)",
@@ -863,10 +863,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Ice Cream Drinks",
+        category: "Ice Cream Drinks",
         items: [
           {
-            title: "Brandy Alexander",
+            name: "Brandy Alexander",
             ingredients: [
               "2 oz E&J Brandy",
               "1 oz Light Creme de Cacao",
@@ -879,7 +879,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Grasshopper",
+            name: "Grasshopper",
             ingredients: [
               "1.5 oz Green Creme de Menthe",
               "1.5 oz Light Creme de Cacao",
@@ -892,7 +892,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Pink Squirrel",
+            name: "Pink Squirrel",
             ingredients: [
               "1.5 oz Creme de Noyaux",
               "1.5 oz Light Creme de Cacao",
@@ -906,10 +906,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Mocktails",
+        category: "Mocktails",
         items: [
           {
-            title: "NA Wisconsin Old Fashioned",
+            name: "NA Wisconsin Old Fashioned",
             ingredients: [
               "1 oz Sweethaven Spiced Cherry and Orange Shrub",
               "Cherry and orange",
@@ -921,7 +921,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "NA Lemon Drop",
+            name: "NA Lemon Drop",
             ingredients: [
               "1 oz Sweethaven Lemon, Basil, Lavender Shrub",
               "1 oz Lemon Sour",
@@ -933,7 +933,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "NA No-Groni",
+            name: "NA No-Groni",
             ingredients: ["7 oz Phony Negroni"],
             glass: "Double Old Fashioned",
             garnish: "Dehydrated orange",
@@ -941,7 +941,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "NA Spicy Margarita",
+            name: "NA Spicy Margarita",
             ingredients: [
               "1 oz Sweethaven Pineapple, Turmeric, Jalapeno Shrub",
               "1 oz Lime Sour",
@@ -955,10 +955,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Popular Drinks",
+        category: "Popular Drinks",
         items: [
           {
-            title: "Mojito",
+            name: "Mojito",
             ingredients: [
               "2 oz White Rum (Bacardi)",
               ".75 oz Mint Syrup",
@@ -973,7 +973,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Mint Julep",
+            name: "Mint Julep",
             ingredients: [
               "2.5 oz Bourbon (Cabin Still)",
               "1 oz Mint Simple Syrup",
@@ -986,7 +986,7 @@ export const lexingtonData = {
               "Associated with the southern United States and promoted by Churchill Downs with the Kentucky Derby since 1938.",
           },
           {
-            title: "Pina Colada",
+            name: "Pina Colada",
             ingredients: [
               "1.5 oz White Rum (Bacardi)",
               ".5 oz Appleton Rum",
@@ -1002,7 +1002,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Irish Coffee",
+            name: "Irish Coffee",
             ingredients: [
               "1.5 oz Tullamore Dew",
               ".5 oz Turbinado Syrup",
@@ -1014,7 +1014,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Margarita",
+            name: "Margarita",
             ingredients: [
               "2 oz Reposado Tequila (El Jimador)",
               ".75 oz Orange Liqueur",
@@ -1026,7 +1026,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Spicy Margarita",
+            name: "Spicy Margarita",
             ingredients: [
               "2 oz Housemade jalapeno-infused El Jimador Tequila",
               ".75 oz Orange Liqueur",
@@ -1038,7 +1038,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Lemon Drop Martini",
+            name: "Lemon Drop Martini",
             ingredients: [
               "2 oz Vodka",
               ".75 oz Orange Liqueur",
@@ -1050,7 +1050,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Cosmopolitan",
+            name: "Cosmopolitan",
             ingredients: [
               "2 oz Vodka",
               ".75 oz Orange Liqueur",
@@ -1063,7 +1063,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Espresso Martini",
+            name: "Espresso Martini",
             ingredients: [
               "1.5 oz Vodka (New Amsterdam)",
               ".75 oz Iced Coffee",
@@ -1077,7 +1077,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Dark & Stormy",
+            name: "Dark & Stormy",
             ingredients: [
               "1.5 oz Lightly Aged Rum (Appleton preferred)",
               "1 oz Lime Sour",
@@ -1090,7 +1090,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Collins",
+            name: "Collins",
             ingredients: [
               "1.5 oz Any Spirit",
               "1 oz Lemon Juice",
@@ -1102,7 +1102,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Daiquiri",
+            name: "Daiquiri",
             ingredients: [
               "2 oz White Rum",
               "1 oz Lime Juice",
@@ -1114,7 +1114,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Gin Fizz",
+            name: "Gin Fizz",
             ingredients: [
               "2 oz Gin",
               "1 oz Lemon",
@@ -1128,7 +1128,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Hot Toddy",
+            name: "Hot Toddy",
             ingredients: [
               "2 oz Bourbon",
               "1 oz Lemon",
@@ -1141,7 +1141,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Sidecar",
+            name: "Sidecar",
             ingredients: [
               "2 oz Cognac",
               ".75 oz Orange Liqueur",
@@ -1156,10 +1156,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Go-To Cocktails",
+        category: "Go-To Cocktails",
         items: [
           {
-            title: "Kir Royale",
+            name: "Kir Royale",
             ingredients: [
               "5 oz Champagne or other sparkling white wine",
               ".5 oz Chambord or Creme de Cassis",
@@ -1170,7 +1170,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Long Island Iced Tea",
+            name: "Long Island Iced Tea",
             ingredients: [
               ".75 oz Vodka",
               ".75 oz Gin",
@@ -1185,7 +1185,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Smash",
+            name: "Smash",
             ingredients: [
               "4 lemon wedges",
               "6 to 8 mint leaves",
@@ -1198,7 +1198,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Sour",
+            name: "Sour",
             ingredients: [
               "2 oz Any Spirit",
               "1 oz Lemon Juice",
@@ -1213,10 +1213,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Stirred & Boozy",
+        category: "Stirred & Boozy",
         items: [
           {
-            title: "Whiskey Black Manhattan",
+            name: "Whiskey Black Manhattan",
             ingredients: [
               "2 oz Rye",
               "1 oz Italian Amaro, preferably Averna",
@@ -1229,7 +1229,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Bijou",
+            name: "Bijou",
             ingredients: [
               "1 oz Beefeater Gin",
               "1 oz Green Chartreuse",
@@ -1242,7 +1242,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Gibson",
+            name: "Gibson",
             ingredients: [
               "2 oz Gin",
               "1 oz Dry Vermouth",
@@ -1254,7 +1254,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Martinez",
+            name: "Martinez",
             ingredients: [
               "1.5 oz Aged Gin",
               "1 oz Sweet Vermouth",
@@ -1267,7 +1267,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Turf Cocktail",
+            name: "Turf Cocktail",
             ingredients: [],
             glass: "Coupe",
             garnish: "Cherry",
@@ -1276,7 +1276,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Fancy Free",
+            name: "Fancy Free",
             ingredients: [
               "2 oz Bourbon",
               ".5 oz Maraschino",
@@ -1288,7 +1288,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Rag & Bone",
+            name: "Rag & Bone",
             ingredients: [
               "1.5 oz Rye",
               ".5 oz Navy Strength Rum",
@@ -1302,7 +1302,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Rusty Nail",
+            name: "Rusty Nail",
             ingredients: ["1.5 oz Scotch", ".75 oz Drambuie"],
             glass: "Old Fashioned",
             garnish: "Lemon peel",
@@ -1310,7 +1310,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Sazerac",
+            name: "Sazerac",
             ingredients: [
               "2 oz Rye",
               ".25 oz 2:1 Simple Syrup",
@@ -1323,7 +1323,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "The Inside Job",
+            name: "The Inside Job",
             ingredients: [
               "2 oz Bourbon",
               ".5 oz Simple Syrup",
@@ -1336,7 +1336,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Tipperary",
+            name: "Tipperary",
             ingredients: [
               "1 oz Irish Whiskey",
               "1 oz Green Chartreuse",
@@ -1349,7 +1349,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Mezcal Negroni",
+            name: "Mezcal Negroni",
             ingredients: [
               "1 oz Tequila",
               ".5 oz Vida Mezcal",
@@ -1362,7 +1362,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Mezcal Old Fashioned",
+            name: "Mezcal Old Fashioned",
             ingredients: [
               "1 oz Vida Mezcal",
               "1 oz Tequila",
@@ -1376,7 +1376,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Vieux Carre",
+            name: "Vieux Carre",
             ingredients: [
               "1 oz Cognac",
               ".75 oz Rye",
@@ -1390,7 +1390,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Chet Baker",
+            name: "Chet Baker",
             ingredients: [
               "2 oz Aged Rum",
               ".5 oz Sweet Vermouth",
@@ -1403,7 +1403,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Corpse Reviver #2",
+            name: "Corpse Reviver #2",
             ingredients: [
               "1 oz Gin",
               "1 oz Lillet",
@@ -1418,10 +1418,10 @@ export const lexingtonData = {
         ],
       },
       {
-        title: "Shaken, Citrusy & Refreshing",
+        category: "Shaken, Citrusy & Refreshing",
         items: [
           {
-            title: "Aviation",
+            name: "Aviation",
             ingredients: [
               "2 oz Gin",
               ".75 oz Lemon Juice",
@@ -1435,7 +1435,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Bee's Knees",
+            name: "Bee's Knees",
             ingredients: [
               "2 oz Gin, preferably aged",
               "1 oz Lemon",
@@ -1447,7 +1447,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Eastside",
+            name: "Eastside",
             ingredients: [
               "2 oz Gin",
               "1 oz Lime",
@@ -1461,7 +1461,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Fallen Angel",
+            name: "Fallen Angel",
             ingredients: [
               "1.5 oz Gin",
               ".5 oz Creme de Menthe",
@@ -1475,7 +1475,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "French 75",
+            name: "French 75",
             ingredients: [
               "1.5 oz Gin",
               ".75 oz Lemon",
@@ -1488,7 +1488,7 @@ export const lexingtonData = {
             story: "",
           },
           {
-            title: "Last Word",
+            name: "Last Word",
             ingredients: [
               "1 oz Gin",
               "1 oz Green Chartreuse",

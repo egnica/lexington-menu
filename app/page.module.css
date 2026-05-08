@@ -1,0 +1,298 @@
+.page {
+  min-height: 100vh;
+  background: #160f0c;
+  color: #fff7ee;
+  padding: 18px;
+}
+
+.header {
+  max-width: 760px;
+  margin: 0 auto 18px;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: #d7a96e;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 11vw, 4.5rem);
+  line-height: 0.9;
+  letter-spacing: -0.06em;
+}
+
+.tabs {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  max-width: 760px;
+  margin: 0 auto 14px;
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  background: #160f0c;
+}
+
+.tabButton {
+  border: 1px solid rgba(255, 247, 238, 0.14);
+  background: rgba(255, 247, 238, 0.08);
+  color: #fff7ee;
+  border-radius: 999px;
+  padding: 13px 10px;
+  font-size: 0.92rem;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.activeTab {
+  background: #e8b36e;
+  color: #1c110d;
+  border-color: #e8b36e;
+}
+
+.searchSection {
+  max-width: 760px;
+  margin: 0 auto 18px;
+  background: rgba(255, 247, 238, 0.07);
+  border: 1px solid rgba(255, 247, 238, 0.12);
+  border-radius: 20px;
+  padding: 14px;
+}
+
+.searchSection label {
+  display: block;
+  margin-bottom: 8px;
+  color: #d7a96e;
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.searchSection input {
+  width: 100%;
+  border: 1px solid rgba(255, 247, 238, 0.18);
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff7ee;
+  border-radius: 14px;
+  padding: 14px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.searchSection input:focus {
+  border-color: #e8b36e;
+  box-shadow: 0 0 0 3px rgba(232, 179, 110, 0.18);
+}
+
+.searchSection input::placeholder {
+  color: rgba(255, 247, 238, 0.44);
+}
+
+.resultCount {
+  margin: 10px 0 0;
+  color: #cbb8a7;
+  font-size: 0.88rem;
+}
+
+.sections {
+  max-width: 760px;
+  margin: 0 auto;
+  display: grid;
+  gap: 18px;
+}
+
+.sectionBlock {
+  display: grid;
+  gap: 10px;
+}
+
+.sectionBlock h2 {
+  margin: 0;
+  color: #e8b36e;
+  font-size: 0.88rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.itemList {
+  display: grid;
+  gap: 10px;
+}
+
+.itemBlock {
+  border: 1px solid rgba(255, 247, 238, 0.12);
+  background: rgba(255, 247, 238, 0.06);
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.itemButton {
+  width: 100%;
+  min-height: 58px;
+  border: 0;
+  background: transparent;
+  color: #fff7ee;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 850;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.openButton {
+  background: rgba(232, 179, 110, 0.14);
+}
+
+.buttonIcon {
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 247, 238, 0.1);
+  color: #e8b36e;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.revealPanel {
+  border-top: 1px solid rgba(255, 247, 238, 0.1);
+  padding: 14px 15px 16px;
+  background: rgba(0, 0, 0, 0.16);
+}
+
+.specDetails {
+  display: grid;
+  gap: 16px;
+}
+
+.specSection {
+  display: grid;
+  gap: 7px;
+}
+
+.specSection h3 {
+  margin: 0;
+  color: #e8b36e;
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.specSection ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #f4e5d8;
+  line-height: 1.65;
+}
+
+.specSection p {
+  margin: 0;
+  color: #f4e5d8;
+  line-height: 1.6;
+}
+
+.emptyState {
+  padding: 18px;
+  border: 1px solid rgba(255, 247, 238, 0.12);
+  background: rgba(255, 247, 238, 0.06);
+  border-radius: 18px;
+  color: #d9cbc0;
+}
+
+.referencePanel {
+  max-width: 760px;
+  margin: 0 auto;
+  display: grid;
+  gap: 14px;
+}
+
+.referenceCard {
+  background: rgba(255, 247, 238, 0.07);
+  border: 1px solid rgba(255, 247, 238, 0.12);
+  border-radius: 20px;
+  padding: 16px;
+}
+
+.referenceCard h2 {
+  margin: 0 0 14px;
+  color: #fff7ee;
+}
+
+.spiritList,
+.termList {
+  display: grid;
+  gap: 10px;
+}
+
+.spiritRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 247, 238, 0.1);
+}
+
+.spiritRow span {
+  color: #cbb8a7;
+}
+
+.spiritRow strong {
+  color: #fff7ee;
+  text-align: right;
+}
+
+.termItem {
+  padding: 13px;
+  background: rgba(0, 0, 0, 0.18);
+  border-radius: 14px;
+}
+
+.termItem h3 {
+  margin: 0 0 6px;
+  color: #e8b36e;
+}
+
+.termItem p {
+  margin: 0;
+  color: #f4e5d8;
+  line-height: 1.55;
+}
+
+@media (min-width: 900px) {
+  .page {
+    padding: 32px;
+  }
+
+  .tabs,
+  .header,
+  .searchSection,
+  .sections,
+  .referencePanel {
+    max-width: 980px;
+  }
+
+  .itemList {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+  }
+
+  .itemBlock {
+    align-self: start;
+  }
+}
